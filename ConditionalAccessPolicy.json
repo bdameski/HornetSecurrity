@@ -1,0 +1,41 @@
+{
+  "conditions": {
+    "platforms": {
+      "includePlatforms": [
+        "all"
+      ]
+    },
+    "users": {
+      "includeGroups": [
+        "0da8624c-3c3e-4b05-9d4e-4d26c81bd6a6"
+      ],
+      "excludeRoles": [
+        "62e90394-69f5-4237-9190-012177145e10"
+      ]
+    },
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "none"
+      ]
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "locations": {
+      "excludeLocations": [],
+      "includeLocations": [
+        "1c971d72-2830-464a-8871-3fa846bad855"
+      ]
+    }
+  },
+  "displayName": "Require Compliant Device and MK Location for SecurityReviewTeam (Test - No Apps)",
+  "sessionControls": {},
+  "state": "enabled",
+  "grantControls": {
+    "builtInControls": [
+      "compliantDevice"
+    ],
+    "operator": "AND"
+  }
+}
